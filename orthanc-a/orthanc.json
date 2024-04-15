@@ -1,0 +1,14 @@
+{
+  "Name": "Orthanc-A",
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
+  "PythonScript": "/etc/orthanc/python-scripts/req.py",
+  "RegisteredUsers": {
+    "demo": "demo"
+  },
+  "OrthancPeers": {
+    "b": [
+      "http://orthanc-b:8042/"
+    ]
+  }
+}
